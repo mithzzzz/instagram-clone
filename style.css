@@ -1,0 +1,454 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 100vw;
+    margin: 5px auto;
+    overflow: hidden;
+
+
+}
+
+.navbar {
+    height: 60px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 40px;
+    width: 140px;
+}
+
+.logo_img {
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+
+
+}
+
+.btn_login {
+    background-color: #0095F6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.btn_signup {
+
+    background-color: transparent;
+    color: #0095F6;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+
+
+}
+
+.feeds {
+    width: 990px;
+    margin: 20px auto;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+
+
+}
+
+.title_logo {
+    width: 140px;
+    margin: 100px 120px;
+}
+
+.title_logo_img {
+    width: 100%;
+}
+
+.title_desc {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.g_name {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+.g_name p {
+    font-size: 20px;
+}
+
+
+.verified_img {
+    height: 100%;
+}
+
+.fndm_btn {
+    margin-left: 20px;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.fndm_btn:hover {
+    background-color: lightgrey;
+}
+
+.post_following_section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 37px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.post_following_section p {
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.post_following_section p:hover {
+    color: gray;
+
+}
+
+.g_thread p {
+    margin-bottom: 8px;
+}
+
+.g_thread button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    border-radius: 16px;
+    padding: 6px 5px;
+    cursor: pointer;
+
+}
+
+.g_thread button:hover {
+    background-color: lightgrey;
+}
+
+.final_desc p {
+    font-size: 14px;
+    color: grey;
+    line-height: 20px;
+}
+
+.it_company {
+    color: black
+}
+
+.linkin_bio {
+    font-weight: 600;
+    color: rgb(33, 108, 165);
+    cursor: pointer;
+}
+
+.linkin_bio:hover {
+    text-decoration: underline;
+}
+
+/* product_section */
+
+.g_products {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 30px;
+
+
+}
+
+.gemini {
+    width: 80px;
+    height: 80px;
+    margin-left: 140px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.gemini img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    padding: 2px;
+}
+
+.ICYMI {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+
+
+
+}
+
+.ICYMI img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    padding: 2px;
+}
+
+.made_by_google {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.made_by_google img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    padding: 2px;
+}
+
+.google_25 {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.google_25 img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    padding: 2px;
+}
+
+
+.io_23 {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.io_23 img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    padding: 2px;
+}
+
+/* card_desc_section */
+
+
+.card_disc {
+    margin-top: 100px;
+    border-top: 1px solid rgb(227, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    /*  background-color: #332b2b;  */
+
+}
+
+.card_disc p {
+
+    color: gray;
+    font-size: 16px;
+}
+
+.card_disc span {
+    color: black;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    /*    background-color: #3c2c2c;  */
+    margin: 0;
+
+    /* border: 2px solid black; */
+}
+
+.card_1 {
+    /* width: 324px;
+height: 400px; */
+    margin: 2px;
+    position: relative;
+    cursor: pointer;
+    /*  margin-bottom: 3px; */
+    /*  background-color: #673838; */
+
+
+}
+
+.card_1 img {
+    width: 320px;
+    height: 400px;
+
+}
+
+
+
+/* .like_logo {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+   
+    color: black;
+} */
+
+.r_accounts {
+    font-size: 14px;
+    color: gray;
+}
+
+.accounts {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    align-items: center;
+    justify-content: start;
+}
+
+.person {
+    width: 145px;
+    height: 220px;
+    border: 1px solid lightgrey;
+    text-align: center;
+
+
+}
+
+.p_img {
+    width: 60px;
+    height: 60px;
+    margin: 18px auto;
+}
+
+.p_img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.android_name {
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 30px;
+
+}
+
+.android_name p {
+    font-size: 12px;
+
+}
+
+
+.verified_img {
+    height: 100%;
+}
+
+.andro_btn {
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.andro_btn:hover {
+    background-color: lightgrey
+}
+
+
+/* footer*/
+
+.p_1 {
+
+    display: flex;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+    cursor: pointer;
+    font-size: 12px;
+  
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+.p_1 :hover {
+    text-decoration: underline;
+}
+
+.p_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+    font-size: 12px;
+    color: grey;
+    margin-right: 130px;
+    margin-top: 20px;
+}
+
+.p_2 :hover {
+    text-decoration: underline;
+}
